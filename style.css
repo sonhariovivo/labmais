@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(180deg, rgb(247, 146, 197),   rgb(255, 231, 109));
+}
+
+body {
+    font-family: 'Courier New';
+    font-size: 15pt;
+    color:rgb(76, 128, 128); 
+}
+
+@font-face {
+    font-family: PlasticSans;
+    src: url('fonts/PlasticSans.otf')  format('truetype');
+}
+
+#header-title {
+    color: white; 
+    display: inline;
+    font-family: PlasticSans;
+    font-size: 130pt;
+    margin: 0;
+    padding-bottom: 0px;
+}
+#header-subtitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white; 
+    display: inline-block;
+    font-size: 40pt;
+    margin: 0;
+}
+main {
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 2vh;
+    padding: 50px;
+    min-height: 52vh;
+}
+
+.menu-item{
+    font-family: PlasticSans;
+    display: inline-block;
+    color: white;
+    font-size: 30pt;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.menu-item a {
+    color:white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.frame-embed {
+    width: 100%;
+    min-height: 60vh;
+}
+
+li:hover {
+    background-color: rgb(144, 0, 255);
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(76, 128, 128);
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+#opened-eyes {
+    background: url(img/open-eye.png);
+    background-size: 60px 30px;
+    width: 120px;
+    height: 90px;
+    right: 0;
+    position: absolute;
+}
+
+#opened-eyes:hover{
+    background: url(img/closed-eye.png);
+    background-size: 60px 31px;
+}
+
+#closed-eyes {
+    background: url(img/closed-eye.png);
+    background-size: 60px 31px;
+    width: 120px;
+    height: 90px;
+    right: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+#closed-eyes:hover{
+    background: url(img/open-eye.png);
+    background-size: 60px 30px;
+}
+
+.eye {
+    margin-left: 5px;   
+}
+
+.draggable {
+    visibility: hidden;
+    position: absolute;
+}
+
+#cat2 {
+    margin-top: 50px;
+    margin-left: 200px;
+}
