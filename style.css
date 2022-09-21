@@ -130,6 +130,7 @@ footer {
 .bioitem {
     display: block;
     min-height: 200px;
+    margin-bottom: 50px;
 }
 
 .marquee {
