@@ -186,6 +186,12 @@ footer {
     width: 100%;
 }
 
+blockquote {
+    padding: 10px;
+    background-color: lightpink;
+    color: black
+}
+
 .marquee2 img {
     position: absolute;
     margin: 0;
