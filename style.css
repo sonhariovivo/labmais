@@ -117,9 +117,14 @@ footer {
     position: absolute;
 }
 
-#cat2 {
+#piscina {
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 800px;
+}
+
+#dente {
+    margin-top: 320px;
+    margin-left: 620px;
 }
 
 .biopic {
