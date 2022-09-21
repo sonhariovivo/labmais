@@ -40,6 +40,10 @@ main {
     padding: 50px;
     min-height: 52vh;
 }
+.text-image {
+    float: left;
+    margin-right: 15px;
+}
 
 .menu-item{
     font-family: PlasticSans;
@@ -116,6 +120,16 @@ footer {
 #cat2 {
     margin-top: 50px;
     margin-left: 200px;
+}
+
+.biopic {
+    float:left;
+    margin-right: 20px;
+}
+
+.bioitem {
+    display: block;
+    min-height: 200px;
 }
 
 .marquee {
