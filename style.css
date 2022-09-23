@@ -209,6 +209,11 @@ blockquote {
     background-color: lightpink;
     color: black;
     margin: 2%;
+    text-align: justify;
+}
+
+.center-element {
+    text-align: center;
 }
 
 .marquee2 img {
